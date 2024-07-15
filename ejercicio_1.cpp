@@ -19,6 +19,7 @@ int main(){
 	empleado personas[e];
 	for(int i = 0 ;i < e ; i++)
 	{
+		 cout << "Persona " << i + 1 << ":\n";
 			cout<<"nombre del empleado: ";
 		cin.ignore();
 		getline(cin,personas[i].nombre);
