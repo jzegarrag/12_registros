@@ -19,13 +19,11 @@ int main(){
 	empleado personas[e];
 	for(int i = 0 ;i < e ; i++)
 	{
-	
-		fflush(stdin);
 			cout<<"nombre del empleado: ";
 		cin.ignore();
 		getline(cin,personas[i].nombre);
 			cout<<"sueldo del empleado: ";
-		cin>>sueldo;
+		cin>>personas[i].sueldo;
 			cout<<"sexo del empleado masculino o femenino: ";
 		cin.ignore();
 		getline(cin,personas[i].sexo);
